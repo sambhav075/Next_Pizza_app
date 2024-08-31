@@ -17,9 +17,10 @@ const Carouselcomponent = () => {
     >
      { imgProp.map((object,index)=>{
       return(
-     <div>
-     <img key={index} style={{ maxHeight: "36rem" }}
-        className="object-center brightness-50"
+     <div
+     key={index} style={{ maxHeight: "36rem" }}
+        className="object-center brightness-50">
+     <img 
           src={`${object.src}`}
           alt="pizza"
         /></div>
